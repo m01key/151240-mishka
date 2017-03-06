@@ -1,7 +1,8 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [mars](https://up.htmlacademy.ru/adaptive/10/user/151240).
-* Наставник: `Неизвестно`.
+* Наставник: [Юрий Ненашев](https://htmlacademy.ru/profile/id393391).
+
 
 ---
 
