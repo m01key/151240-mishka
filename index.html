@@ -14,10 +14,10 @@
 
     <nav class="menu-main">
       <ul class="menu-list">
-        <li><a href="">Каталог товаров</a></li>
-        <li><a href="">Вязание на заказ</a></li>
-        <li><a href="">Поиск по сайту</a></li>
-        <li><a href="">Корзина: пока пуста</a></li>
+        <li><a class="menu-list__item" href="">Каталог товаров</a></li>
+        <li><a class="menu-list__item" href="">Вязание на заказ</a></li>
+        <li><a class="menu-list__item" href="">Поиск по сайту</a></li>
+        <li><a class="menu-list__item" href="">Корзина: пока пуста</a></li>
       </ul>
     </nav>
   </header>
@@ -53,11 +53,9 @@
           <td class="table__cell">15 см</td>
         </tr>
       </table>
-      <div class="product__pic">
-        <img src="http://placehold.it/260x315" alt="вязанные корзинки" width="260" height="315">
-      </div>
+      <img class="product__picture" src="http://placehold.it/260x315" alt="вязанные корзинки" width="260" height="315">
       <p class="product__price">Цена: 990 руб.</p>
-      <button class="button">Заказать</button>
+      <button class="button" type="submit">Заказать</button>
     </section>
 
     <section class="features">
@@ -86,17 +84,9 @@
 
     <section class="contacts">
       <h2 class="contacts__title">Контакты</h2>
-      <div>
-        <span class="contacts__text">e-mail:</span>
-        <span class="contacts__text"><a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a></span>
-      </div>
-      <div>
-        <span class="contacts__text">адрес:</span>
-        <span class="contacts__text">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</span>
-      </div>
-      <div id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043705196!2d30.32088925156465!3d59.9387941817873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xfbeb3cbd3eed50c8!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCAxMDEsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1489020454262" width="350" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
+      <p class="contacts__text">e-mail: <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a></p>
+      <p class="contacts__text">адрес: г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</p>
+      <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043705196!2d30.32088925156465!3d59.9387941817873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xfbeb3cbd3eed50c8!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCAxMDEsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1489020454262" allowfullscreen></iframe>
       <button class="button" type="button">Напишите нам</button>
     </section>
   </main>
@@ -104,9 +94,9 @@
 
   <footer class="footer">
     <div class="social">
-      <a class="social__instagram" href="">инстаграм</a>
-      <a class="social__facebook"  href="">фэйсбук</a>
-      <a class="social__twitter"   href="">твиттер</a>
+      <a class="social__instagram" href="">Инстаграм</a>
+      <a class="social__facebook" href="">Фэйсбук</a>
+      <a class="social__twitter" href="">Твиттер</a>
     </div>
     <div class="copy">
       <p class="copy__text">Разработано</p>
