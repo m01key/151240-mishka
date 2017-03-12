@@ -3,7 +3,6 @@
 * Студент: [mars](https://up.htmlacademy.ru/adaptive/10/user/151240).
 * Наставник: [Юрий Ненашев](https://htmlacademy.ru/profile/id393391).
 
-
 ---
 
 **Обратите внимание на файлы:**
