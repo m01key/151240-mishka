@@ -1,0 +1,20 @@
+.header {
+  min-height: 80px;
+  text-align: center;
+}
+
+.header__logo {
+  margin-top: 20px;
+}
+
+.menu-list {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.menu-list__item {
+  display: none;
+  padding: 30px 0 30px 75px;
+  color: #000;
+}

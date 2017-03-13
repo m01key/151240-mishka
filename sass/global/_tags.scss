@@ -1,0 +1,25 @@
+html, body {
+  width: 320px;
+  background-color: #fff;
+  color: $gray;
+  font-family: 'Open Sans', Verdana, sans-serif ;
+  font-size: 15px;
+
+  outline: 1px red solid;
+}
+h1, h2, h3 {
+  margin: 0;
+  color: #000;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
