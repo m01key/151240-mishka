@@ -1,0 +1,12 @@
+.button {
+  box-sizing: border-box;
+  width: 260px;
+  height: 50px;
+  border: 2px $gray solid;
+  background-color: transparent;
+  color: $gray;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

@@ -1,0 +1,38 @@
+.contacts {
+  margin-bottom: 40px;
+}
+
+.contacts__title {
+  @include wrapper;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contacts_wrap {
+  @include wrapper;
+  display: table;
+  border-spacing: 0 20px;
+  margin-bottom: 10px;
+}
+
+.contacts__text {
+  display: table-row;
+}
+
+.contacts__address {
+  display: table-cell;
+  width: 80px;
+}
+
+.contacts__map {
+  margin-bottom: 40px;
+  border: none;
+  width: 100%;
+  height: 460px;
+}
+
+.contacts_button-wrap {
+  @include wrapper;
+}
+

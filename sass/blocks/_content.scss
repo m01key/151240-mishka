@@ -1,0 +1,27 @@
+.content {
+  background-image: url('../img/hero-mobile@1x.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
+.content__title {
+  padding: 75px 30px 120px;
+  font-size: 27px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.content__text {
+  box-sizing: border-box;
+  display: block;
+  padding: 26px 175px 26px 30px;
+  background-color: $green-light;
+  color: #fff;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: bold;
+  &_dark {
+    background-color: $green-dark;
+  }
+}
+
