@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 
   <header class="header">
-    <img class="header__logo" src="http://placehold.it/86x35" alt="логотип" width="86" height="35">
+    <img class="header__logo" src="img/logo-mobile.svg" alt="логотип" width="86" height="35">
 
     <nav class="header__menu-main">
       <ul class="menu-list">
@@ -21,27 +22,27 @@
   </header>
 
 
-  <main>
-    <h1 class="title">Вязание на заказ</h1>
-    <p class="text">
-      Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.
-    </p>
+  <main class="main">
+    <h1 class="main__title">Вязание на заказ</h1>
 
     <form class="form" id="order" action="https://echo.htmlacademy.ru/">
+    <p class="form__intro">
+      Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.
+    </p>
       <h2 class="form__title">Тип</h2>
-      <input class="form__type" id="order__interior" value="interior" type="radio" name="type" checked><label for="order__interior">Аксессуар для интерьера</label>
-      <input class="form__type" id="order__toys" value="toys" type="radio" name="type"><label for="order__toys">Детская игрушка</label>
+      <input class="form__type" id="order__interior" value="interior" type="radio" name="type" checked><label class="form__label-type" for="order__interior">Аксессуар для интерьера</label>
+      <input class="form__type" id="order__toys" value="toys" type="radio" name="type"><label class="form__label-type" for="order__toys">Детская игрушка</label>
       <h2 class="form__title">Цвет</h2>
-      <input class="form__color" id="order__white" value="white" type="checkbox" name="color"  checked><label for="order__white">Белый</label>
-      <input class="form__color" id="order__gray" value="gray" type="checkbox" name="color"  checked><label for="order__gray">Серый</label>
-      <input class="form__color" id="order__tiffany" value="tiffany" type="checkbox" name="color" ><label for="order__tiffany">«Тиффани»</label>
-      <input class="form__color" id="order__black" value="black" type="checkbox" name="color" ><label for="order__black">Черный</label>
-      <input class="form__color" id="order__pink" value="pink" type="checkbox" name="color" ><label for="checkbox5">Розовый</label>
-      <input class="form__color" id="order__orange" value="orange" type="checkbox" name="color" ><label for="order__orange">Оранжевый</label>
+      <input class="form__color" id="order__white" value="white" type="checkbox" name="color"  checked><label class="form__label-color" for="order__white">Белый</label>
+      <input class="form__color" id="order__gray" value="gray" type="checkbox" name="color"  checked><label class="form__label-color" for="order__gray">Серый</label>
+      <input class="form__color" id="order__tiffany" value="tiffany" type="checkbox" name="color" ><label class="form__label-color" for="order__tiffany">«Тиффани»</label>
+      <input class="form__color" id="order__black" value="black" type="checkbox" name="color" ><label class="form__label-color" for="order__black">Черный</label>
+      <input class="form__color" id="order__pink" value="pink" type="checkbox" name="color" ><label class="form__label-color" for="checkbox5">Розовый</label>
+      <input class="form__color" id="order__orange" value="orange" type="checkbox" name="color" ><label class="form__label-color" for="order__orange">Оранжевый</label>
       <h2 class="form__title">ФИО</h2>
-      <label for="order__name">Имя:</label><input class="form__text" type="text" id="order__name" placeholder="Введите ваше имя*">
-      <label for="order__surname">Фамилия:</label><input class="form__text" type="text" id="order__surname" placeholder="Укажите фамилию*">
-      <label for="order__patronymic">Отчество:</label><input class="form__text" type="text" id="order__patronymic" placeholder="Отчество, если желаете">
+      <label class="form__label-fio" for="order__name">Имя:</label><input class="form__text" type="text" id="order__name" placeholder="Введите ваше имя*">
+      <label class="form__label-fio" for="order__surname">Фамилия:</label><input class="form__text" type="text" id="order__surname" placeholder="Укажите фамилию*">
+      <label class="form__label-fio" for="order__patronymic">Отчество:</label><input class="form__text" type="text" id="order__patronymic" placeholder="Отчество, если желаете">
       <h2 class="form__title">тел</h2>
       <input class="form__text" type="tel" placeholder="+7 ХХХ ХХ ХХ*">
       <h2 class="form__title">тел</h2>
@@ -55,10 +56,10 @@
 
 
   <footer class="footer">
-    <p class="footer__social">
-      <a class="footer__instagram" href="">Инстаграм</a>
-      <a class="footer__facebook" href="">Фэйсбук</a>
-      <a class="footer__twitter" href="">Твиттер</a>
+    <p class="footer__socials">
+      <a class="footer__social footer__instagram" href="">Инстаграм</a>
+      <a class="footer__social footer__facebook" href="">Фэйсбук</a>
+      <a class="footer__social footer__twitter" href="">Твиттер</a>
     </p>
     <p class="footer__copyright">
     Разработано
