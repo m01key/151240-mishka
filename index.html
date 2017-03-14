@@ -12,11 +12,11 @@
     <img class="header__logo" src="img/logo-mobile.svg" alt="логотип" width="86" height="35">
 
     <nav class="header__menu-main">
-      <ul class="menu-list">
-        <li><a class="menu-list__item" href="">Каталог товаров</a></li>
-        <li><a class="menu-list__item" href="">Вязание на заказ</a></li>
-        <li><a class="menu-list__item" href="">Поиск по сайту</a></li>
-        <li><a class="menu-list__item" href="">Корзина: пока пуста</a></li>
+      <ul class="header__menu-list">
+        <li><a class="header__item" href="">Каталог товаров</a></li>
+        <li><a class="header__item" href="">Вязание на заказ</a></li>
+        <li><a class="header__item" href="">Поиск по сайту</a></li>
+        <li><a class="header__item" href="">Корзина: пока пуста</a></li>
       </ul>
     </nav>
 
@@ -36,8 +36,8 @@
       <h3 class="product__hit">Товар недели</h3>
       <p class="product__text">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
       <table class="table">
-        <col class="table__col1">
-        <col class="table__col2">
+        <col class="table__col-1">
+        <col class="table__col-2">
         <tr class="table__row">
           <td class="table__cell">Цвет:</td>
           <td class="table__cell">«Тиффани»/серый</td>
@@ -53,7 +53,7 @@
       </table>
       <img class="product__picture" src="img/triple-set-mobile@1x.jpg" alt="вязанные корзинки" width="260" height="315">
       <p class="product__price">Цена: 990 руб.</p>
-      <button class="button button_margin" type="submit">Заказать</button>
+      <button class="button" type="submit">Заказать</button>
     </section>
 
     <section class="features">
@@ -76,34 +76,32 @@
         <p class="reviews__nick">@misssssiskras</p>
       </div>
       <div class="reviews__arrows-wrap">
-        <button class="reviews__prev" type="button"> <- </button>
-        <button class="reviews__next" type="button"> -> </button>
+        <button class="reviews__prev" type="button">&larr;</button>
+        <button class="reviews__next" type="button">&rarr;</button>
       </div>
       <button class="button" type="button">Написать</button>
     </section>
 
     <section class="contacts">
       <h2 class="contacts__title">Контакты</h2>
-      <div class="contacts_wrap">
+      <div class="contacts__wrap">
         <p class="contacts__text">
-        <span class="contacts__address">e-mail:</span>
-        <a class="contacts__address" href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+          <span class="contacts__address">e-mail:</span>
+          <a class="contacts__address" href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
         </p>
         <p class="contacts__text">
-        <span class="contacts__address">адрес:</span>
-        <span class="contacts__address">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</span>
+          <span class="contacts__address">адрес:</span>
+          <span class="contacts__address">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</span>
         </p>
       </div>
       <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043705196!2d30.32088925156465!3d59.9387941817873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xfbeb3cbd3eed50c8!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCAxMDEsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1489020454262" allowfullscreen></iframe>
-      <div class="contacts_button-wrap">
-        <button class="button" type="button">Напишите нам</button>
-      </div>
+      <button class="button" type="button">Напишите нам</button>
     </section>
   </main>
 
 
   <footer class="footer">
-    <p class="footer__socials">
+    <p class="footer__links">
       <a class="footer__social footer__instagram" href="">Инстаграм</a>
       <a class="footer__social footer__facebook" href="">Фэйсбук</a>
       <a class="footer__social footer__twitter" href="">Твиттер</a>

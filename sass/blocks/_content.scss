@@ -5,7 +5,9 @@
 }
 
 .content__title {
+  margin: 0;
   padding: 75px 30px 120px;
+  color: #000;
   font-size: 27px;
   line-height: 30px;
   text-align: center;
@@ -20,6 +22,7 @@
   font-size: 19px;
   line-height: 24px;
   font-weight: bold;
+  text-decoration: none;
   &_dark {
     background-color: $green-dark;
   }
