@@ -17,8 +17,10 @@
 }
 
 .header__link {
+  display: block;
   display: none;
   padding: 30px 0 30px 75px;
   color: #000;
   text-decoration: none;
+  text-align: left;
 }
