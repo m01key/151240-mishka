@@ -1,20 +1,15 @@
-.product-list {
-  @include wrapper;
-  padding-top: 30px;
-}
-
-.product-item {
+.products-item {
   margin-bottom: 30px;
   padding-bottom: 30px;
   box-shadow: inset 0 0 0 1px $gray-light;
 
 }
 
-.product-item__picture {
+.products-item__picture {
   margin-bottom: 20px;
 }
 
-.product-item__title {
+.products-item__title {
   padding-left: 30px;
   margin: 0 0 15px;
   color: #000;
@@ -23,14 +18,14 @@
   font-weight: bold;
 }
 
-.product-item__text {
+.products-item__text {
   padding-left: 30px;
   margin-bottom: 50px;
   font-size: 13px;
   line-height: 30px;
 }
 
-.product-item__price {
+.products-item__price {
   margin: 0;
   padding-left: 30px;
   font-weight: bold;

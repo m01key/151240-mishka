@@ -4,7 +4,9 @@
   padding-bottom: 55px;
 }
 
-.form label {
+.form__label-type,
+.form__label-color,
+.form__label-fio {
   display: block;
   font-size: 17px;
   line-height: 18px;
