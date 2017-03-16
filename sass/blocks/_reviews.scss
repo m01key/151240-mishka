@@ -1,0 +1,44 @@
+.reviews {
+  @include wrapper;
+  margin-bottom: 45px;
+}
+
+.reviews__wrap {
+  margin-bottom: 35px;
+}
+
+.reviews__title {
+  margin: 0 0 30px;
+  color: #000;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.reviews__text {
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.reviews__author {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+.reviews__nick {
+  font-size: 17px;
+}
+.reviews__arrows-wrap {
+  font-size: 0;
+}
+.reviews__prev,
+.reviews__next {
+  width: 50%;
+  height: 50px;
+  margin-bottom: 40px;
+  background-color: transparent;
+  border: solid 1px $gray-light;
+  font-size: 17px;
+}

@@ -1,0 +1,22 @@
+.footer {
+  min-height: 160px;
+  background-color: $gray-lighter;
+}
+
+.footer__socials,
+.footer__copyright {
+  min-height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.footer__link {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer__copyright {
+  font-size: 19px;
+  font-weight: bold;
+  color: #000;
+}

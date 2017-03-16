@@ -1,0 +1,27 @@
+.features {
+  @include wrapper;
+  margin-top: 35px;
+  margin-bottom: 60px;
+}
+
+.features__title {
+  margin: 0;
+  color: #000;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.features__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.features__item {
+  padding-top: 90px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #000;
+}
