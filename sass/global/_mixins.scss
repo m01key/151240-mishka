@@ -1,4 +1,29 @@
-@mixin wrapper {
+@mixin padding {
   padding-right: 30px;
   padding-left: 30px;
 }
+
+@mixin wrapper($width) {
+  width: $width;
+  margin: 0 auto;
+
+  // outline: green 1px solid;
+}
+
+@mixin clearfix {
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+
+
+
+
+
+
+
+
+

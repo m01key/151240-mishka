@@ -1,7 +1,6 @@
 .features {
-  @include wrapper;
-  margin-top: 35px;
-  margin-bottom: 60px;
+  @include wrapper(260px)
+  padding: 35px 30px 60px;
 }
 
 .features__title {
@@ -25,3 +24,42 @@
   font-weight: bold;
   color: #000;
 }
+
+@media (min-width: 768px) {
+  .features {
+    @include wrapper(668px)
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .features__title {
+    font-size: 43px;
+    line-height: 1;
+  }
+  .features__list {
+    font-size: 0;
+  }
+  .features__item {
+    display: inline-block;
+    width: 300px;
+    padding-right: 30px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .features {
+    @include wrapper(700px)
+  }
+  .features__title {
+    font-size: 53px;
+    line-height: 1;
+  }
+}
+
+
+
+
+
+
+
+

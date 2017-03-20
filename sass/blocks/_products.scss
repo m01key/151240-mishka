@@ -1,4 +1,22 @@
 .products {
-  @include wrapper;
+  @include wrapper(260px);
+  @include padding;
   padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .products {
+    @include wrapper(668px);
+  }
+
+}
+
+@media (min-width: 1150px) {
+  .products {
+    @include wrapper(1050px);
+    padding: 60px 0 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
 }

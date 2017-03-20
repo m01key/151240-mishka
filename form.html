@@ -31,42 +31,74 @@
     <p class="form__intro">
       Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.
     </p>
-      <h2 class="form__title">Тип</h2>
-      <input class="form__type" id="order__interior" value="interior" type="radio" name="type" checked><label class="form__label-type" for="order__interior">Аксессуар для интерьера</label>
-      <input class="form__type" id="order__toys" value="toys" type="radio" name="type"><label class="form__label-type" for="order__toys">Детская игрушка</label>
-      <h2 class="form__title">Цвет</h2>
-      <input class="form__color" id="order__white" value="white" type="checkbox" name="color"  checked><label class="form__label-color" for="order__white">Белый</label>
-      <input class="form__color" id="order__gray" value="gray" type="checkbox" name="color"  checked><label class="form__label-color" for="order__gray">Серый</label>
-      <input class="form__color" id="order__tiffany" value="tiffany" type="checkbox" name="color" ><label class="form__label-color" for="order__tiffany">«Тиффани»</label>
-      <input class="form__color" id="order__black" value="black" type="checkbox" name="color" ><label class="form__label-color" for="order__black">Черный</label>
-      <input class="form__color" id="order__pink" value="pink" type="checkbox" name="color" ><label class="form__label-color" for="checkbox5">Розовый</label>
-      <input class="form__color" id="order__orange" value="orange" type="checkbox" name="color" ><label class="form__label-color" for="order__orange">Оранжевый</label>
-      <h2 class="form__title">ФИО</h2>
-      <label class="form__label-fio" for="order__name">Имя:</label><input class="form__text" type="text" id="order__name" placeholder="Введите ваше имя*">
-      <label class="form__label-fio" for="order__surname">Фамилия:</label><input class="form__text" type="text" id="order__surname" placeholder="Укажите фамилию*">
-      <label class="form__label-fio" for="order__patronymic">Отчество:</label><input class="form__text" type="text" id="order__patronymic" placeholder="Отчество, если желаете">
-      <h2 class="form__title">тел</h2>
-      <input class="form__text" type="tel" placeholder="+7 ХХХ ХХ ХХ*">
-      <h2 class="form__title">тел</h2>
-      <input class="form__text" type="email" placeholder="Ваш Email*">
-      <h2 class="form__title">доп</h2>
-      <textarea class="form__textarea" placeholder="Опишите все ваши пожелания к заказу"></textarea>
-      <p class="form__notes">Поля обязательны для заполнения</p>
-      <button class="button" type="submit">Отправить заказ</button>
+
+      <div class="form__type-wrap">
+        <h2 class="form__title">Тип</h2>
+        <div class="form__input-wrap">
+          <input class="form__type" id="order__interior" value="interior" type="radio" name="type" checked><label class="form__label-type" for="order__interior">Аксессуар для интерьера</label>
+          <input class="form__type" id="order__toys" value="toys" type="radio" name="type"><label class="form__label-type" for="order__toys">Детская игрушка</label>
+        </div>
+      </div>
+
+      <div class="form__bg-color">
+        <div class="form__color-wrap">
+          <h2 class="form__title">Цвет</h2>
+          <div class="form__input-wrap">
+            <input class="form__color" id="order__white" value="white" type="checkbox" name="color"  checked><label class="form__label-color" for="order__white">Белый</label>
+            <input class="form__color" id="order__gray" value="gray" type="checkbox" name="color"  checked><label class="form__label-color" for="order__gray">Серый</label>
+            <input class="form__color" id="order__tiffany" value="tiffany" type="checkbox" name="color" ><label class="form__label-color" for="order__tiffany">"Тиффани"</label>
+            <input class="form__color" id="order__black" value="black" type="checkbox" name="color" ><label class="form__label-color" for="order__black">Черный</label>
+            <input class="form__color" id="order__pink" value="pink" type="checkbox" name="color" ><label class="form__label-color" for="checkbox5">Розовый</label>
+            <input class="form__color" id="order__orange" value="orange" type="checkbox" name="color" ><label class="form__label-color" for="order__orange">Оранжевый</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form__fio-wrap">
+        <h2 class="form__title">ФИО</h2>
+        <div class="form__input-wrap">
+          <label class="form__label-fio" for="order__name">Имя: <input class="form__text" type="text" id="order__name" placeholder="Введите ваше имя*"></label>
+          <label class="form__label-fio" for="order__surname">Фамилия: <input class="form__text" type="text" id="order__surname" placeholder="Укажите фамилию*"></label>
+          <label class="form__label-fio" for="order__patronymic">Отчество: <input class="form__text" type="text" id="order__patronymic" placeholder="Отчество, если желаете"></label>
+        </div>
+      </div>
+
+      <div class="form__bg-color">
+        <div class="form__tel-wrap">
+          <h2 class="form__title">Тел</h2>
+          <input class="form__contact" type="tel" placeholder="+7 ХХХ ХХ ХХ*">
+        </div>
+        <div class="form__email-wrap">
+          <h2 class="form__title">E-mail</h2>
+          <input class="form__contact" type="email" placeholder="Ваш Email*">
+        </div>
+      </div>
+
+      <div class="form__textarea-wrap">
+        <h2 class="form__title">доп</h2>
+        <textarea class="form__textarea" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+      </div>
+      <div class="form__float-wrap">
+        <p class="form__notes">*Поля обязательны для заполнения</p>
+        <button class="button form__button" type="submit">Отправить заказ</button>
+      </div>
     </form>
   </main>
 
 
   <footer class="footer">
-    <p class="footer__socials">
-      <a class="footer__link footer__link--instagram" href="">Инстаграм</a>
-      <a class="footer__link footer__link--facebook" href="">Фэйсбук</a>
-      <a class="footer__link footer__link--twitter" href="">Твиттер</a>
-    </p>
-    <p class="footer__copyright">
-    Разработано
-    <a class="footer__logo" href="">HTML Academy</a>
-    </p>
+    <div class="footer__wrapper">
+      <img class="footer__logo" src="img/logo-mobile.svg" alt="логотип">
+      <p class="footer__socials">
+        <a class="footer__link footer__link--instagram" href="">Инстаграм</a>
+        <a class="footer__link footer__link--facebook" href="">Фэйсбук</a>
+        <a class="footer__link footer__link--twitter" href="">Твиттер</a>
+      </p>
+      <p class="footer__copyright">
+      Разработано
+      <a class="footer__copyright-logo visually-hidden" href="">HTML Academy</a>
+      </p>
+    </div>
   </footer>
 
 
