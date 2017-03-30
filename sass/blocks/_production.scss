@@ -28,22 +28,18 @@
   margin: 0 auto;
 }
 
-.production__picture-big {
-  display: none;
-}
 
 @media (min-width: 768px) {
   .production {
     @include wrapper(668px);
+    margin-bottom: 60px;
   }
+
   .production__picture {
-    display: none;
+    order: 2;
+    // margin: 0 auto;
   }
-  .production__picture-big {
-    order: -1;
-    display: block;
-    margin: 0 auto;
-  }
+
   .production__title {
     font-size: 20px;
   }
@@ -62,13 +58,13 @@
     @include wrapper(1050px);
     @include clearfix;
     display: block;
+    padding-bottom: 0;
+    margin-bottom: 100px;
   }
   .production__button {
     width: 230px;
   }
-  .production__picture-big {
-    float: left;
-  }
+
   .production__title {
     padding-top: 100px;
   }
@@ -85,10 +81,3 @@
     margin-left: 80px;
   }
 }
-
-
-
-
-
-
-
