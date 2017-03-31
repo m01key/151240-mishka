@@ -9,18 +9,24 @@
 
 
   <header class="header">
-
-    <img class="header__logo" src="img/logo-mobile.svg" alt="логотип" width="86" height="35">
-
-    <nav class="header__navigation">
-      <ul class="header__menu">
-        <li><a class="header__link" href="">Каталог товаров</a></li>
-        <li><a class="header__link" href="">Вязание на заказ</a></li>
-        <li><a class="header__link" href="">Поиск по сайту</a></li>
-        <li><a class="header__link" href="">Корзина: пока пуста</a></li>
-      </ul>
-    </nav>
-
+    <div class="header__wrapper">
+      <img class="header__logo" src="img/logo-mobile.svg" alt="логотип" width="86" height="35">
+      <nav class="header__navigation">
+        <ul class="header__menu">
+          <li class="header__menu-item header__catalog"><a class="header__link" href="">Каталог товаров</a></li>
+          <li class="header__menu-item header__order"><a class="header__link" href="">Вязание на заказ</a></li>
+          <li class="header__menu-item header__search"><a class="header__link" href="">Поиск по сайту</a></li>
+          <li class="header__menu-item header__cart"><a class="header__link" href="">Корзина: пока пуста</a></li>
+        </ul>
+      </nav>
+      <div class="header__desktop-text">
+        <div class="header__new-sales">
+          <span class="header__new">Новые поступления</span>
+          <span class="header__sales">Распродажа</span>
+        </div>
+        <span class="header__dleivery">Бесплатная доставка по России</span>
+      </div>
+    </div>
   </header>
 
 
