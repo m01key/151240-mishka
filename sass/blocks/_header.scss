@@ -1,59 +1,153 @@
-.header {
+.header__wrapper {
+  display: flex;
+  flex-direction: column;
   min-height: 80px;
-  text-align: center;
 }
 
 .header__logo {
-  margin-top: 20px;
+  margin: 22px auto;
+}
+
+.header__navigation {
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.header__menu-item {
+  box-shadow:  0 -1px 0 $gray-light;
 }
 
 .header__menu {
-  @include wrapper(320px);
+  margin: 0;
   padding: 0;
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: bold;
   list-style: none;
 }
 
 .header__link {
+  @include wrapper(320px);
+  box-sizing: border-box;
   display: block;
-  // display: none;
-  padding: 30px 0 30px 75px;
+  padding: 26px 0 26px 75px;
   color: #000;
   text-decoration: none;
-  text-align: left;
 }
 
+.header__new-sales {
+  display: none;
+}
+
+.header__dleivery {
+  display: none;
+}
+
+
 @media (min-width: 768px) {
+
+  .header {
+    border-bottom: solid 1px $gray-light;
+  }
+
   .header__wrapper {
     @include wrapper(668px);
-    padding: 0 50px;
+    position: relative;
   }
-  .header__logo {
-    float: left;
-  }
-  .header__menu {
-    width: auto;
-  }
-  .header__menu li {
-    display: inline-block;
 
-    // outline: red solid 1px;
+  .header__logo {
+    margin: 27px auto 27px 0;
   }
+
+  .header__menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 130px;
+  }
+
+  .header__menu-item {
+    box-shadow: none;
+  }
+
+  .header__menu-item:nth-child(-n+2) {
+    align-self: flex-end;
+  }
+
   .header__link {
-    padding: 30px 0;
+    width: auto;
+    padding: 33px 0 0;
     font-size: 15px;
   }
+
+  .header__desktop-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+
+    // outline: red 1px solid;
+  }
+
+  .header__dleivery {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    line-height: 25px;
+
+    // outline: 1px green solid;
+  }
+
 }
 
 @media (min-width: 1150px) {
+
   .header__wrapper {
     @include wrapper(1050px);
-    padding: 0 50px;
-    text-align: center;
+    display: block;
+
+    // outline: solid red;
   }
+
   .header__logo {
-    float: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
   }
+
+  .header__menu {
+    position: static;
+    width: auto;
+    height: auto;
+    justify-content: flex-start;
+  }
+
+  .header__order {
+    margin-right: auto;
+  }
+
+  .header__search {
+    margin-left: auto;
+  }
+
+  .header__link {
+    padding: 33px 30px;
+  }
+
+  .header__new-sales {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+
+
+
 }
