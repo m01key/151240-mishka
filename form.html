@@ -19,15 +19,17 @@
           <li class="header__menu-item header__cart"><a class="header__link" href="">Корзина: пока пуста</a></li>
         </ul>
       </nav>
-      <div class="header__desktop-text">
-        <div class="header__new-sales">
-          <span class="header__new">Новые поступления</span>
-          <span class="header__sales">Распродажа</span>
-        </div>
-        <span class="header__dleivery">Бесплатная доставка по России</span>
-      </div>
     </div>
   </header>
+  <div class="subheader">
+    <div class="subheader__wrap">
+      <div class="subheader__list">
+        <a class="subheader__new" href="">Новые поступления</a>
+        <a class="subheader__sales" href="">Распродажа</a>
+      </div>
+      <span class="subheader__dleivery">Бесплатная доставка по России</span>
+    </div>
+  </div>
 
 
   <main class="main">
@@ -41,7 +43,7 @@
       <fildset class="form__type-wrap">
         <legend class="form__title">Тип</legend>
         <div class="form__input-wrap">
-          <input class="form__type" id="order__interior" value="interior" type="radio" name="type"><label class="form__label-type" for="order__interior">Аксессуар для интерьера</label>
+          <input class="form__type" id="order__interior" value="interior" type="radio" name="type" checked><label class="form__label-type" for="order__interior">Аксессуар для интерьера</label>
           <input class="form__type" id="order__toys" value="toys" type="radio" name="type"><label class="form__label-type" for="order__toys">Детская игрушка</label>
         </div>
       </fildset>
@@ -96,12 +98,9 @@
     <div class="footer__wrapper">
       <img class="footer__logo" src="img/logo-mobile.svg" alt="логотип">
       <p class="footer__socials">
-        <a class="footer__link footer__link--instagram" href=""></a>
-        <a class="visually-hidden" href="">Инстаграм</a>
-        <a class="footer__link footer__link--facebook" href=""></a>
-        <a class="visually-hidden" href="">Фэйсбук</a>
-        <a class="footer__link footer__link--twitter" href=""></a>
-        <a class="visually-hidden" href="">Твиттер</a>
+        <a class="footer__link footer__link--instagram" href=""><span class="visually-hidden">Инстаграм</span></a>
+        <a class="footer__link footer__link--facebook" href=""><span class="visually-hidden">Фэйсбук</span></a>
+        <a class="footer__link footer__link--twitter" href=""><span class="visually-hidden">Твиттер</span></a>
       </p>
       <p class="footer__copyright">
       <span class="footer__copyright-intro">Разработано</span>

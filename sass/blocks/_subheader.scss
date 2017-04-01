@@ -1,0 +1,54 @@
+.subheader {
+  position: relative;
+
+  // outline: solid green;
+}
+
+.subheader__list,
+.subheader__dleivery {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+  .subheader__wrap {
+    @include clearfix;
+    position: absolute;
+    left: 50%;
+    width: 668px;
+    transform: translatex(-50%);
+    z-index: 10;
+
+  }
+
+  .subheader__dleivery {
+    float: right;
+    display: block;
+    margin-top: 15px;
+    line-height: 25px;
+  }
+
+}
+
+@media (min-width: 1150px) {
+
+  .subheader__wrap {
+    width: 1050px;
+  }
+
+  .subheader__list {
+    float: left;
+    display: block;
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+
+  .subheader__new,
+  .subheader__sales {
+    color: #000;
+    text-decoration: none;
+  }
+
+}
