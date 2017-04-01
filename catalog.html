@@ -36,7 +36,7 @@
     <section class="products">
       <article class="products-item">
         <img class="products-item__picture" src="img/photo-1-mobile@1x.jpg" alt="зайчик-попрыгайчик" width="260" height="195">
-        <div class="products__info">
+        <div class="products-item__info">
           <h2 class="products-item__title">Зайчик-попрыгайчик</h2>
           <p class="products-item__text">Рост 30 см, вес 200 г</p>
           <p class="products-item__price">1 200 руб.</p>
@@ -45,7 +45,7 @@
 
       <article class="products-item">
         <img class="products-item__picture" src="img/photo-2-mobile@1x.jpg" alt="Корзинка для белья" width="260" height="195">
-        <div class="products__info">
+        <div class="products-item__info">
           <h2 class="products-item__title">Корзинка для белья</h2>
           <p class="products-item__text">Диаметр 15 см, высота 10 см</p>
           <p class="products-item__price">690 руб.</p>
@@ -54,7 +54,7 @@
 
       <article class="products-item">
         <img class="products-item__picture" src="img/photo-3-mobile@1x.jpg" alt="Большая корзинка для игрушек" width="260" height="195">
-        <div class="products__info">
+        <div class="products-item__info">
           <h2 class="products-item__title">Большая корзинка для игрушек</h2>
           <p class="products-item__text">Диаметр 30 см, высота 30 см</p>
           <p class="products-item__price">1 500 руб.</p>
@@ -63,7 +63,9 @@
     </section>
 
     <section class="production">
-      <img class="production__picture" src="img/video-mobile@1x.jpg" alt="процесс производства" width="260" height="150">
+      <div class="production__picture">
+        <img class="production__picture-img" src="img/video-mobile@1x.jpg" alt="процесс производства" width="260" height="150">
+      </div>
       <h2 class="production__title">Процесс производства</h2>
       <p class="production__text">
         По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.
@@ -77,13 +79,17 @@
     <div class="footer__wrapper">
       <img class="footer__logo" src="img/logo-mobile.svg" alt="логотип">
       <p class="footer__socials">
-        <a class="footer__link footer__link--instagram" href="">Инстаграм</a>
-        <a class="footer__link footer__link--facebook" href="">Фэйсбук</a>
-        <a class="footer__link footer__link--twitter" href="">Твиттер</a>
+        <a class="footer__link footer__link--instagram" href=""></a>
+        <a class="visually-hidden" href="">Инстаграм</a>
+        <a class="footer__link footer__link--facebook" href=""></a>
+        <a class="visually-hidden" href="">Фэйсбук</a>
+        <a class="footer__link footer__link--twitter" href=""></a>
+        <a class="visually-hidden" href="">Твиттер</a>
       </p>
       <p class="footer__copyright">
-      Разработано
-      <a class="footer__copyright-logo visually-hidden" href="">HTML Academy</a>
+      <span class="footer__copyright-intro">Разработано</span>
+      <a class="footer__copyright-logo" href=""></a>
+      <a class="visually-hidden" href="">HTML Academy</a>
       </p>
     </div>
   </footer>

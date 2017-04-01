@@ -23,6 +23,43 @@
   line-height: 20px;
   font-weight: bold;
   color: #000;
+
+}
+
+.features__item--flower {
+  background-image: url('../img/icon-feature-1.svg');
+  background-repeat: no-repeat;
+  background-position: 5% 30%;
+}
+
+.features__item--money {
+  background-image: url('../img/icon-feature-2.svg');
+  background-repeat: no-repeat;
+  background-position: 5% 30%;
+}
+
+.features__item--like {
+  background-image: url('../img/icon-feature-3.svg');
+  background-repeat: no-repeat;
+  background-position: 5% 30%;
+}
+
+.features__item--bundle {
+  background-image: url('../img/icon-feature-4.svg');
+  background-repeat: no-repeat;
+  background-position: 5% 30%;
+}
+
+.features__item--rocket {
+  background-image: url('../img/icon-feature-5.svg');
+  background-repeat: no-repeat;
+  background-position: 5% 30%;
+}
+
+.features__item--gift {
+  background-image: url('../img/icon-feature-6.svg');
+  background-repeat: no-repeat;
+  background-position: 5% 30%;
 }
 
 @media (min-width: 768px) {

@@ -2,7 +2,6 @@
   @include padding;
   @include wrapper(260px);
   padding-bottom: 40px;
-  // margin-bottom: 45px;
 }
 
 .reviews__wrap {
@@ -46,6 +45,18 @@
   background-color: transparent;
   border: solid 1px $gray-light;
   font-size: 17px;
+}
+
+.reviews__prev {
+  background-image: url('../img/icon-left-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.reviews__next {
+  background-image: url('../img/icon-right-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 @media (min-width: 768px) {

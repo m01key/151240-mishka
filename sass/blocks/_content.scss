@@ -29,8 +29,18 @@
   line-height: 24px;
   font-weight: bold;
   text-decoration: none;
-  &--dark {
+  &--interior {
+    background-image: url('../img/icon-interior.svg');
+    background-repeat: no-repeat;
+    background-position: 87% 50%;
+  }
+  &--toy {
     background-color: $green-dark;
+    background-image: url('../img/icon-toy.svg');
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+
+
   }
 }
 
